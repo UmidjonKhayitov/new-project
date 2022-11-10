@@ -1,0 +1,268 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.container .navbar{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.container .navbar .one{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar .one h1{
+    font-family: monospace;
+    transition: all .3s;
+    cursor: pointer;
+}
+.container .navbar .one:hover h1{
+    transform: scale(.8);
+}
+.container .navbar .two{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.container .navbar .two ul{
+    display: flex;
+    padding-top: 25px;
+    justify-content: center;
+    gap: 35px;
+}
+.container .navbar .two li{
+    font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 120%;
+}
+.container .navbar .three{
+    width: 35%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+
+}
+.container .navbar .three h1{
+    font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 120%;
+color: #080B13;
+}
+.container .tag{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.container .tag p{
+    padding-left: 190px;
+    padding-top: 20px;
+    font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 120%;
+/* identical to box height, or 16px */
+
+
+/* Secondary */
+
+color: #080B13;
+
+}
+.container .body{
+    display: flex;
+    width: 100%;
+    height: 85%;
+    background-color: rgb(255, 255, 255);
+}
+.container .body .left{
+    width: 50%;
+    height: 100%;
+}
+.container .body .left img{
+    width: 90%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 80px;
+}
+.container .body .right{
+    width: 50%;
+    height: 95%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 0%;
+    left: 0px;
+}
+.container .body .right .cust{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.container .body .right .cust h1{
+    line-height: 60px;
+    position: relative;
+    top: 0%;
+    left: 35px;
+    font-family: monospace;
+}
+.container .body .right .but{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+.container .body .right .but button{
+    position: relative;
+    top: 0%;
+    left: 35px;
+    width: 150px;
+    height: 35px;
+}
+.container .body .right .onew{
+    background-color: #080B13;
+    color: #fff;
+    transition: all .3s;
+    cursor: pointer;
+}
+.container .body .right .onew:hover{
+    background-color: #fff;
+    color: #080B13;
+    border-color: none;
+}
+.container .body .right .twoo:hover{
+    background-color: #080B13;
+    color: #fff;
+}
+.container .body .right .color{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    line-height: 50px;
+}
+.container .body .right .color p{
+    position: relative;
+    top: 0%;
+    left: 35px;
+}
+.container .body .right .color input{
+    position: relative;
+    top: 0%;
+    left: 35px;
+}
+.container .body .right .buttn{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.container .body .right .buttn button{
+    width: 40px;
+    height: 30px;
+    position: relative;
+    border: 2px solid transparent;
+    top: 0%;
+    left: 35px;
+    transition: all .3s;
+    cursor: pointer;
+}
+.container .body .right .buttn:hover button{
+    background-color: #080B13;
+    color: #fff;
+}
+.container .body .right .card{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+}
+.container .body .right .card button{
+    width: 300px;
+    height: 90%;
+    position: relative;
+    border: 2px solid transparent;
+    top: 5px;
+    left: 35px;
+    background-color: rgb(216, 216, 216);
+}
+.container .body .right .text{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.container .body .right .text h1,p{
+    position: relative;
+    left: 35px;
+    top: 0%;
+}
+.container .body .right .text h1{
+    font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 130%;
+/* identical to box height, or 26px */
+
+
+/* Primary */
+
+color: #000000;
+}
+.container .body .right .text p{
+    font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 130%;
+color: #cfcfcf;
+}
+.container .body .right .text2{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+}
+.container .body .right .text2 p{
+    font-family: 'Basis Grotesque Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+/* or 21px */
+
+
+/* Primary */
+
+color: #000000;
+}
+
